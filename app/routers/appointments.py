@@ -3,6 +3,7 @@ from sqlalchemy.orm import Session
 from .. import schemas, crud
 from ..database import get_db
 from ..main import get_current_user
+from .. import models
 
 router = APIRouter(
     prefix="/appointments",
